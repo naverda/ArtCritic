@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Art Critic with Gemini API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h1>Art Critic with Gemini API</h1>
+    <form id="uploadForm">
+      <div class="image-picker">
+        <input type="file" id="imageUpload" accept="image/*">
+        <button type="submit">Go</button>
+        <img id="uploadedImage" src="" alt="Uploaded Image" style="display:none;">
+      </div>
+      <div class="prompt-box">
+        <label>
+          <textarea name="prompt" placeholder="Enter instructions here" type="text" style="display:none;">
+            This is a painting I painted. As an art critic, you should evaluate my painting. Please write a short article that analyzes the picture and discusses it objectively.(Around 300 characters)
+          </textarea>
+        </label>
+      </div>
+    </form>
+    <div class="output"></div>
+  </main>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
