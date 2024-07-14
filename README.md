@@ -1,5 +1,6 @@
 # ArtCritic
-#EN
+'''EN'''
+
 Multimodal AI Art Evaluation Service
 Our Multimodal AI Art Evaluation Service harnesses the power of Google's Generative AI to provide insightful assessments of artworks based on textual prompts and uploaded images. This service is designed to assist artists, enthusiasts, and critics in analyzing and understanding the aesthetic and emotional qualities of visual artworks.
 
@@ -38,7 +39,7 @@ To experience our Multimodal AI Art Evaluation Service, simply upload an image o
 
 Join us in exploring the intersection of art and technology with our innovative AI-driven evaluation service. Unlock new insights into artworks and elevate your artistic journey today!
 
-#KO
+'''KO'''
 
 AI 기반 다중 모달 미술 평가 서비스
 우리의 AI 기반 다중 모달 미술 평가 서비스는 Google의 생성적 AI를 활용하여 사용자가 제공한 미술품 이미지와 텍스트 설명을 바탕으로 작품을 평가합니다.
